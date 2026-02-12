@@ -42,6 +42,9 @@ logs/
 # Jupyter
 .ipynb_checkpoints/
 
+# Generated outputs
+Output/
+
 # Misc
 .cache/
 .pytest_cache/
