@@ -1,0 +1,174 @@
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0 0 40px 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, "Segoe UI", "Calibri", sans-serif;
+  line-height: 1.2;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+}
+
+/* Exclude mathematical content from heading font inheritance */
+h1 .katex, h1 .MathJax, h1 mjx-container,
+h2 .katex, h2 .MathJax, h2 mjx-container,
+h3 .katex, h3 .MathJax, h3 mjx-container,
+h4 .katex, h4 .MathJax, h4 mjx-container,
+h5 .katex, h5 .MathJax, h5 mjx-container,
+h6 .katex, h6 .MathJax, h6 mjx-container {
+  font-size: 16px !important;
+  color: #000000 !important;
+}
+
+h1 {
+  font-size: 2em; /* 26.7px */
+  color: #000000ff !important;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.3em;
+  font-weight: 600 !important;
+}
+h1 strong, h1 b {
+  color: #000000ff !important;
+  font-weight: 600 !important;
+}
+h2 {
+  font-size: 1.6em; /* 21.3px */
+  color: #024481ff !important;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.2em;
+  font-weight: 500 !important;
+}
+h2 strong, h2 b {
+  color: #024481ff !important;
+  font-weight: 500 !important;
+}
+h3 {
+  font-size: 1.3em; /* 17.3px */
+  color: #1673beff !important;
+  font-weight: 400 !important;
+}
+h3 strong, h3 b {
+  color: #1673beff !important;
+  font-weight: 400 !important;
+}
+h4 {
+  font-size: 1.1em; /* 14.7px */
+  color: #000000ff !important;
+  font-weight: 400 !important;
+}
+h4 strong, h4 b {
+  color: #000000ff !important;
+  font-weight: 400 !important;
+}
+h5, h6 {
+  font-size: 1em; /* 13.3px */
+  color: #000000ff !important;
+  font-weight: 400 !important;
+}
+h5 strong, h5 b, h6 strong, h6 b {
+  color: #000000ff !important;
+  font-weight: 400 !important;
+}
+
+
+p {
+  margin: 0 0 1.2em 0;
+}
+
+ul, ol {
+  margin: 0 0 1.2em 2em;
+  padding: 0;
+}
+li {
+  margin-bottom: 0.4em;
+}
+
+a {
+  color: #1565c0;
+  text-decoration: underline;
+}
+a:hover {
+  color: #0d47a1;
+}
+
+code {
+  font-family: "Consolas", "Courier New", monospace;
+  background: #f5f5f5;
+  color: #00ad2eff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.95em;
+}
+pre {
+  background: #f5f5f5;
+  color: #222;
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 1.5em 0;
+}
+pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+blockquote {
+  border-left: 4px solid #90caf9;
+  background: #f1f8ff;
+  color: #333;
+  margin: 1.5em 0;
+  padding: 0.7em 1.2em;
+  border-radius: 3px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+  font-size: 1em;
+  font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+  font-weight: normal;
+}
+th, td {
+  border: 1px solid #e0e0e0;
+  padding: 0.5em 1em;
+  text-align: left;
+  font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+  font-weight: normal;
+}
+th {
+  background: #e3f2fd;
+  font-weight: 600;
+}
+tr:nth-child(even) td {
+  background: #f9f9f9;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0;
+  display: block;
+}
+
+/* =============================================================================== */
+/* MATHEMATICAL FORMULA STYLING - KATEX COMPATIBILITY                           */
+/* =============================================================================== */
+/* Ensure KaTeX renders properly without interference from global styles */
+
+/* Allow KaTeX to handle its own styling - minimal interference approach */
+.katex {
+  /* Preserve KaTeX's own styling decisions */
+  font-family: KaTeX_Main, "Times New Roman", serif !important;
+  /* Prevent emoji styling from affecting mathematical content */
+  font-variant-emoji: normal !important;
+}

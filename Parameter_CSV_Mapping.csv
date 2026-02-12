@@ -1,0 +1,56 @@
+parameter,csv_file,column_name,priority_rank,quality_score
+EffectiveAngleFriction,CPT by Geology.csv,InternalFrictionAngle,2,6
+EffectiveAngleFriction,Triaxial Effective Stress by Geology.csv,Phi,1,9
+BulkDensityMoistureContentOptimum,MCV by Geology.csv,BulkDensity,3,6
+BulkDensityMoistureContentOptimum,Classification by Geology.csv,Bulk Density,3,6
+CoefficientConsolidation,Consolidation by Geology.csv,Coefficient of consolidation Root Time,1,9
+CoefficientConsolidation,Consolidation by Geology.csv,Reported Coefficient of Consolidation,2,
+CoefficientVolumeCompressibility,Consolidation by Geology.csv,Volume Compressibility Coefficient,1,9
+Cell Pressure,Consolidation by Geology.csv,Stress at Stage End,1,
+Cohesion,Triaxial Effective Stress by Geology.csv,Cu,1,10
+DryDensityMax,Compaction by Geology.csv,Max Dry Density,1,9
+DryDensityMax,Compaction by Geology.csv,Max Dry Density,1,10
+DryDensityMax,Compaction by Geology.csv,Maximum Dry Density,1,10
+DryDensityMax,Compaction by Geology.csv,Maximum Dry Density,2,9
+FinesContent,Grading by Geology.csv,Fines Percentage,1,10
+LinearShrinkage,Classification by Geology.csv,Shrinkage Limit,1,10
+LiquidLimit,Classification by Geology.csv,Liquid Limit,1,7
+MoistureConditionValue,MCV by Geology.csv,MCV,1,10
+MoistureContent,Triaxial Total Stress by Geology.csv,Initial Moisture Content,3,8
+MoistureContent,Triaxial Effective Stress by Geology.csv,Initial Moisture Content,2,8
+MoistureContent,Consolidation by Geology.csv,Initial MC,4,8
+MoistureContent,Shear Box Testing - Data.csv,Moisture Content Initial,5,8
+MoistureContent,MCV by Geology.csv,NMC,7,5
+MoistureContent,Laboratory CBR by Geology.csv,Moisture Content Top,6,7
+MoistureContent,Classification by Geology.csv,Moisture Content,1,9
+MoistureContentOptimum,Compaction by Geology.csv,Optimum Moisture Content,2,9
+MoistureContentOptimum,Compaction by Geology.csv,Optimum Moisture Content,3,9
+MoistureContentOptimum,Compaction by Geology.csv,Optimum Moisture Content,1,9
+PlasticLimit,Classification by Geology.csv,Plastic Limit,1,6
+PlasticityIndex,Classification by Geology.csv,Plasticity Index,1,7
+ResidualUndrainedShearStrength,Vane Tests by Geology.csv,Residual Result Value,1,9
+UndrainedCohesion,Vane Tests by Geology.csv,Result Value,2,7
+UndrainedShearStrength,Triaxial Total Stress by Geology.csv,Shear Strength at Failure,1,10
+UndrainedShearStrength,Vane Tests by Geology.csv,Result Value,2,9
+UndrainedShearStrength,CPT by Geology.csv,UndrainedShearStrength,3,9
+UndrainedShearStrength,SPT by Geology.csv,N,4,6
+UndrainedShearStrength,Pressuremeter Test Results - General.csv,Undrained Shear Strength,,
+UniaxialCompressiveStrength,Triaxial Total Stress by Geology.csv,Corrected Deviator Stress at Failure,1,10
+UnitWeightBulk,Triaxial Effective Stress by Geology.csv,Initial Bulk Density,1,9
+UnitWeightBulk,Triaxial Total Stress by Geology.csv,Initial Bulk Density,2,9
+UnitWeightBulk,Shear Box Testing - Data.csv,Bulk Density Initial,3,9
+UnitWeightBulk,Consolidation by Geology.csv,Initial Bulk Density,4,9
+UnitWeightBulk,Classification by Geology.csv,Bulk Density,5,8
+UnitWeightBulk,MCV by Geology.csv,BulkDensity,6,7
+UnitWeightBulk,Laboratory CBR by Geology.csv,Initial Bulk Density,7,6
+UnitWeightBulk,CPT by Geology.csv,BulkDensity,8,5
+UnitWeightDry,Consolidation by Geology.csv,Initial Dry Density,4,9
+UnitWeightDry,Shear Box Testing - Data.csv,Dry Density Initial,3,9
+UnitWeightDry,Laboratory CBR by Geology.csv,Initial Dry Density,6,6
+UnitWeightDry,Classification by Geology.csv,Dry Density,5,8
+UnitWeightDry,Triaxial Effective Stress by Geology.csv,Initial Dry Density,1,9
+UnitWeightDry,Triaxial Total Stress by Geology.csv,Initial Dry Density,2,9
+ParticleSizeDistribution,Particle Size Distribution Analysis - Data.csv,Percentage Passing,1,10
+Initial Shear Modulus,Pressuremeter Test Results - General.csv,Initial Shear Modulus,1,9
+In Situ Horizontal Stress,Pressuremeter Test Results - General.csv,In Situ Horizontal Stress,1,9
+EffectiveYoungsModulus,CPT Young's Modulus.csv,E',,
