@@ -45,6 +45,9 @@ logs/
 # Generated outputs
 Output/
 
+# Data folder contents (keep folder, ignore CSV files)
+Openground CSVs/*.csv
+
 # Misc
 .cache/
 .pytest_cache/
